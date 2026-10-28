@@ -1,0 +1,41 @@
+# Archives & zips
+*.zip
+CrimeLens_Full_Project.zip
+
+# Environment & Secrets
+.env
+.env*.local
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build & temporary artifacts
+dist/
+**/dist/
+build/
+**/build/
+web-build/
+**/web-build/
+server_dist/
+**/server_dist/
+.expo/
+**/.expo/
+.vercel
+**/.vercel
+
+# Metro & Expo caches
+.metro-health-check*
+expo-env.d.ts
+
+# Logs
+*.log
+catalyst-debug.log
+
+# Large files (> 100MB cannot be pushed to GitHub)
+*.mp4
+**/*.mp4
+*.exe
+**/*.exe
